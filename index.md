@@ -19,17 +19,17 @@ Deploy, update, and stage your WAFs while managing them centrally via FMS
 - [Contribute](#contribute)
 - [👏 Supporters](#-👏-supporters)
 
-</br>
+
 
 |                     Releases                      | Author |
 |---------------------------------------------------|--------|
-| [Changelog](CHANGELOG.md) - [Features](#Features) | David Krohn </br> [Linkedin](https://www.linkedin.com/in/daknhh/) - [Blog](https://globaldatanet.com/our-team/david-krohn)|
+| [Changelog](CHANGELOG.md) - [Features](#Features) | David Krohn  [Linkedin](https://www.linkedin.com/in/daknhh/) - [Blog](https://globaldatanet.com/our-team/david-krohn)|
 
-</br>
+
 
 ## Overview
 
-<img align="left" src="./static/icon/firewallfactory.svg" width="150">
+<img align="left" src="./static/firewallfactory.png" width="150">
 
 AWS Web Application Firewalls (WAFs) protect web applications and APIs from typical attacks from the Internet that can compromise security and availability, and put undue strain on servers and resources. The AWS WAF provides prebuilt security rules that help control bot traffic and block attack patterns. You can also create your own rules based on your own requirements. In simple scenarios and for smaller applications, this is very easy to implement on an individual basis. However, in larger environments with tens or even hundreds of applications, it is advisable to aim for central governance and automation. This simple solution helps you deploy, update and stage your Web Application Firewalls while managing them centrally via AWS Firewall Manager.
 
@@ -81,10 +81,10 @@ If you want to learn more about the AWS Firewall Factory feel free to look at th
     |     Parameter      |                                           Value                                              |
     |--------------------|----------------------------------------------------------------------------------------------|
     | PROCESS_PARAMETERS | path to values file eg. values/example-waf.json                                              |
-    | SKIP_QUOTA_CHECK   | true (Stop deployment if calculated WCU is above the quota) </br> false (Skipping WCU Check) |
-    | WAF_TEST           | true (testing your waf with GoTestWAF) </br> false (Skipping WAF testing)                    |
-    | CREATE_DIAGRAM     | true (generating a diagram using draw.io) </br> false (Skipping diagram generation)          |
-    | CDK_DIFF           | true (generating a cdk before invoking cdk deploy) </br> false (Skipping cdk diff)           |
+    | SKIP_QUOTA_CHECK   | true (Stop deployment if calculated WCU is above the quota)  false (Skipping WCU Check) |
+    | WAF_TEST           | true (testing your waf with GoTestWAF)  false (Skipping WAF testing)                    |
+    | CREATE_DIAGRAM     | true (generating a diagram using draw.io)  false (Skipping diagram generation)          |
+    | CDK_DIFF           | true (generating a cdk before invoking cdk deploy)  false (Skipping cdk diff)           |
 
 16. Validation of your ConfigFile using schema validation - if you miss a required parameter in your config file the deployment will stop automatically and show you the missing path.
 
@@ -122,12 +122,9 @@ If you want to learn more about the AWS Firewall Factory feel free to look at th
 ## Contribute
 
 Want to contribute to **AWS FIREWALL FACTORY**? Check out the [Contribution docs](./CONTRIBUTING.md)
-</br>
 
 ### 👏 Supporters
 
 [![Stargazers repo roster for @globaldatanet/aws-firewall-factory](https://reporoster.com/stars/dark/globaldatanet/aws-firewall-factory)](https://github.com/globaldatanet/aws-firewall-factory/stargazers)
 
-</br>
 
-<p align="center"><a href="https://github.com/globaldatanet/aws-firewall-factory"><img src="./static/barsSmallTransparentBackground.gif" width="100%"/></a></p>
